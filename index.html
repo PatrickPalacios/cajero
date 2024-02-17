@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+      <title>Cajero Automático</title>
+</head>
+<body style="background: url('./imgs/fondo.png') center center fixed no-repeat; background-size: cover;">
+    <h1>DEV.F BANK</h1>
+    
+  <div id="app">
+    <h1>Selecciona una cuenta</h1>
+    <select id="cuentasDropdown">
+      <option value="0">Mali</option>
+      <option value="1">Gera</option>
+      <option value="2">Maui</option>
+    </select>
+    <input type="password" id="passwordInput" placeholder="Ingrese el password">
+    <button onclick="ingresar()">Ingresar</button>
+
+    <div id="operaciones" style="display: none;">
+      <h2>Selecciona una operación</h2>
+      <button onclick="consultarSaldo()">Consultar Saldo</button>
+      <button onclick="ingresarMonto()">Ingresar Monto</button>
+      <button onclick="retirarMonto()">Retirar Monto</button>
+    </div>
+
+    <div id="resultados" style="display: none;">
+      <p id="resultado"></p>
+      <p id="saldo"></p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>

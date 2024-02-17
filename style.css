@@ -1,0 +1,90 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-color: #f4f4f4;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: url(fondo.png);   
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+}
+
+#app {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e87cc;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+#resultados {
+  margin-top: 20px;
+}
+
+#resultados p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+#saldo {
+  font-weight: bold;
+  color: #27ae60;
+}
+
+#operaciones button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+#operaciones button:hover {
+  background-color: #219651;
+}
+
+h1 {
+  color: #333;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  color: #333;
+}
